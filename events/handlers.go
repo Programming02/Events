@@ -19,3 +19,15 @@ func AddEventHandler(s Service) http.HandlerFunc {
 		w.WriteHeader(http.StatusOK)
 	}
 }
+
+func WebSocketHandler(h *Hub) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		email := r.URL.Query().Get("email")
+		conn, err := upgrader.Upgrade(w, r, nil)
+		if err != nil {
+			panic(err)
+		}
+
+		h.AddClient(email, conn)
+	}
+}

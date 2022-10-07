@@ -8,5 +8,5 @@ import (
 func setupRouter(r chi.Router, s Service, h *Hub) {
 	r.Use(middleware.Logger)
 	r.Post("/events", AddEventHandler(s))
-	//r.Get("/ws", WebSocketHandler(h))
+	r.Get("/ws", WebSocketHandler(h))
 }
