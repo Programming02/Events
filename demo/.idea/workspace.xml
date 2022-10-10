@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6228cd23-23d2-47b1-9c40-f2584ede8de5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../events/event.go" beforeDir="false" afterPath="$PROJECT_DIR$/../events/event.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../events/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../events/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../events/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/../events/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../events/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/../events/repository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../events/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/../events/service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../events/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,9 @@
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Fn8qk4uxEhNAZ8vWASNfauQG8h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,7 +38,7 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/ziyauddin/Project/websocked/Events/events",
+    "last_opened_file_path": "/home/ziyauddin/Project/go-bootcamp-examples/websockets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
